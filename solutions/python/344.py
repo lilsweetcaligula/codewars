@@ -1,0 +1,1 @@
+power_of_two = lambda x: x & (x - 1) == 0

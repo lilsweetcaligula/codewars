@@ -1,0 +1,1 @@
+toJadenCase = lambda string: ' '.join(word.capitalize() for word in string.split())

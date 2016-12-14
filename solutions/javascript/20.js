@@ -1,0 +1,1 @@
+getAge = (inputString) => parseInt(inputString[0]);

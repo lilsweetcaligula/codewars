@@ -1,0 +1,1 @@
+number_of_occurrences = lambda s, xs: xs.count(s)

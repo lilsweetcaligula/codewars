@@ -1,0 +1,1 @@
+counter_effect = lambda hit_count: [list(range(int(digit) + 1)) for digit in hit_count]

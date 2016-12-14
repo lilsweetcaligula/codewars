@@ -1,0 +1,1 @@
+var toNumberArray = (stringarray) => stringarray.map(parseFloat);

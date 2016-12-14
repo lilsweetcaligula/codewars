@@ -1,0 +1,1 @@
+longest = lambda s1, s2: "".join(sorted(char for char in set(s1).union(set(s2))))

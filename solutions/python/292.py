@@ -1,0 +1,1 @@
+order_word = lambda s: 'Invalid String!' if not s else ''.join(sorted(s))

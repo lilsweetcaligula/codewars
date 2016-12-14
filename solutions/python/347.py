@@ -1,0 +1,1 @@
+to_acronym = lambda string: "".join(word.capitalize()[0] for word in string.split())

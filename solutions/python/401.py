@@ -1,0 +1,1 @@
+get_number_from_string = lambda string: int("".join(filter(lambda char: char.isdigit(), string)))

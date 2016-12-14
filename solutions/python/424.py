@@ -1,0 +1,1 @@
+sum_array = lambda arr: sum(sorted(arr)[1:-1]) if arr and len(arr) > 1 else 0

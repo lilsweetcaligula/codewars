@@ -1,0 +1,1 @@
+digitize = lambda number: [int(digit) for digit in str(number)]

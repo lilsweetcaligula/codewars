@@ -1,0 +1,1 @@
+correct = lambda string: string.translate(str.maketrans('501', 'SOI'))

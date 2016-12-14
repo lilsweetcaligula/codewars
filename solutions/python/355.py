@@ -1,0 +1,1 @@
+calculate = lambda: (2 + 2) * 2

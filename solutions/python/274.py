@@ -1,0 +1,1 @@
+is_anagram = lambda test, original: sorted(test.lower()) == sorted(original.lower())

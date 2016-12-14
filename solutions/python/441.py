@@ -1,0 +1,1 @@
+is_uppercase = lambda string: all(not char.isalpha() or char.isupper() for char in string)

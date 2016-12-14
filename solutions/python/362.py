@@ -1,0 +1,1 @@
+summation = lambda value: sum(range(1, value + 1))

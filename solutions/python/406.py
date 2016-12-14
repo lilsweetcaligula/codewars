@@ -1,0 +1,1 @@
+plural = lambda value: value != 1

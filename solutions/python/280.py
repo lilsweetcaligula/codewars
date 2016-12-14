@@ -1,0 +1,1 @@
+find_short = lambda s: min(len(sub) for sub in s.split())

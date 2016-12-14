@@ -1,0 +1,1 @@
+pipe_fix = lambda(numbers): range(numbers[0], numbers[-1] + 1)

@@ -1,0 +1,1 @@
+sum_args = lambda *args: sum(args)
