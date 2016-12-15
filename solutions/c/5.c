@@ -23,8 +23,7 @@ void *mem_alloc(size_t size) {
   if (mem) {
   	struct Node *mem_node = (struct Node*)malloc(sizeof(struct Node));
   	if (!mem_node) {
-  	  free(mem);
-  	  mem = NULL;
+  	  free(mem); mem = NULL;
   	} else {
   	  mem_alloc_count += size;
   	  mem_node->data = mem;
@@ -52,8 +51,9 @@ void mem_free(void* ptr) {
   	
   	if (fast && fast->data == ptr) {
   	  mem_alloc_count -= fast->dataSize;
-  	  free(fast->data);
   	  slow->next = fast->next;
+      free(fast->data);
+      free(fast);
   	}
   }
 }
