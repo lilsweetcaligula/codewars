@@ -1,4 +1,4 @@
-char* isSortedAndHow(int* array, int arrayLength) {
+const char* isSortedAndHow(const int* array, size_t arrayLength) {
   if (arrayLength > 1) {
     int direction = array[1] - array[0];
     for (int index = 1; index < arrayLength; ++index) {
