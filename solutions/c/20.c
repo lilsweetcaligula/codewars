@@ -7,13 +7,13 @@ double round(double value) {
   return (double)((int)value + 1);
 }
 
-int averageHelper(const int *values, size_t count, size_t currentCount, double currentSum);
+static int averageHelper(const int *values, size_t count, size_t currentCount, double currentSum);
 
 int average(const int *values, size_t count) {
   return averageHelper(values, count, count, 0.0);
 }
 
-int averageHelper(const int *values, size_t count, size_t currentCount, double currentSum) {
+static int averageHelper(const int *values, size_t count, size_t currentCount, double currentSum) {
   if (currentCount == 0) {
     return (int)round(currentSum / count);
   }
